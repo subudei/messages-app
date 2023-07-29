@@ -1,0 +1,19 @@
+### list all messages
+
+GET http://localhost:3000/messages
+
+
+
+### create a new message
+
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+  "content" : "Holla amigos"
+}
+
+
+### get a particular message
+
+GET http://localhost:3000/messages/1
