@@ -14,7 +14,6 @@ export class MessagesRepository {
   async findOne(id: string) {
     const contents = await readFile('messages.json', 'utf8');
     const messages = JSON.parse(contents);
-    console.log('MessagesRepository.findOne', messages);
 
     return messages[id];
   }
