@@ -2,8 +2,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-Nest Js App created for the purpose of learning Nest Js and its features.
-No DB connection is used in this app.
+Nest Js App created for the purpose of learning Nest Js and its features, just basics.
+No DB connection is used in this app, data is stored in JSON file 'messages.json'.
+One Module, create, read & find by Id.
 
 ## Installation
 
